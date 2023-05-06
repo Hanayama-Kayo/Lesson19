@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
 margin: 0;
 padding: 0;
@@ -5,4 +7,23 @@ padding: 0;
 
 *, *::after, *::before {
     box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-style: 30px;
+    color: blue;
+}
+
+p {
+    font-style: Rubik;
+    text-align: center;
+
+font-style: oblique;
+font-size: 20px;
 }
