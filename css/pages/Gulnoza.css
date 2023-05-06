@@ -5,6 +5,9 @@ body{
     text-align: center;
 }
 p{
-    text-decoration: dotted;
+    text-decoration-color: violet;
     font-size: 25px;
+    text-decoration: dottedgit;
 }
+
+
