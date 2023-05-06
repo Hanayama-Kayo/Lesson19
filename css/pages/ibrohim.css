@@ -28,4 +28,7 @@ p {
 
 font-style: oblique;
 font-size: 20px;
+/* background-color: silver; */
+border: 2px solid silver;
+border-radius: 20px;
 }
