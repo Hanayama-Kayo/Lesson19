@@ -21,7 +21,9 @@ h1 {
 }
 
 p {
-    font-style: Rubik;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
     text-align: center;
 
 font-style: oblique;
