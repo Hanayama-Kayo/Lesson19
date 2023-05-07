@@ -16,6 +16,7 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .about__header__head {
     padding:96px 0;
 }
@@ -79,7 +80,6 @@
     font-size: 16px;
     line-height: 160%;
     color: #1D2130;
-    opacity: 0.7;
 }
 
 .about__header__footer {
