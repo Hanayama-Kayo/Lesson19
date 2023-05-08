@@ -55,12 +55,20 @@
         z-index: 99;
     }
 }
+@media (max-width:666px) {
+    header h1{
+        font-size: 50px;
+    }
+}
 @media (max-width:650px) {
     .footer-input input{
         padding: 24px 250px 24px 23px;
     }
 }
 @media (max-width:580px) {
+    header h1{
+        font-size: 30px;
+    }
     .footer-input input{
         padding: 10px 120px 10px 10px;
         font-size: 12px ;
@@ -88,7 +96,4 @@
         display: none;
     }
     
-}
-@media (max-width:320px){
-
 }
