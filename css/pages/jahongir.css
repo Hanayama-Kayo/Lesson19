@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px;
+}
+
+body p {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+}
