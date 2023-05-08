@@ -394,9 +394,15 @@
     position: relative;
     width: 296px;
     overflow: hidden;
-  }
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
   .card:hover .card-content {
     bottom: 0;
+    
   }
   .card img {
     width: 100%;
