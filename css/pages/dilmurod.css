@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+*,::after,::before{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none ;
+}
+button{
+    border: none;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+}
+.nav-right ul li a{
+    padding-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #525560;
+}
+.nav-right ul li a button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    background-color: #1D2130;
+}
+.humburger, .close{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 100%;   
+    background: url(../../images/dilmurod/bg.png);
+    padding-top: 130px;
+    padding-bottom: 65px; 
+}
+header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #FFFFFF;
+    max-width: 640px;
+    width: 100%;
+}
+.header-btn-1 button{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+
+/* Primary text */
+
+color: #1D2130;
+padding: 16px 32px;
+background-color: #FFFFFF;
+border: none;
+}
+
+.header-buttons{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-btn-2 button{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-footer{
+    width: 100%;
+}
+.header-footer h3{
+    color: white;
+}
+.header-text-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 190px;
+    gap: 30px;
+}
+.header-text-content h3{
+    color: white;
+}
+.line{
+    max-width: 860px;
+    width: 100%;
+    height: 1px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.content-1{
+    padding-top: 96px;
+    padding-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0B0706;
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.footer-rows{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-gen a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.nav-link a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 24px;
+    display: inline-block;
+    color: #FFFFFF;
+    opacity: 0.78;
+}
+.footer-right{
+    padding-left: 100px;
+}
+.footer-right h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 140%;
+    color: #FFFFFF;
+}       
+.footer-input{
+    display: flex;
+    align-items: center;
+}
+.footer-input input{
+    padding: 24px 300px 24px 23px;
+    background-color: transparent;
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    border-radius: 4px;
+    margin-top: 32px;
+}
+.footer-input button{
+    padding: 22px 32px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1D2130;
+    border: 4px;
+}
