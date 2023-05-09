@@ -30,7 +30,7 @@ a {
 
 /*                header section   start        */
 .header {
-  display: flex;
+  display: flex;  
   flex-direction: row;
   /* flex-wrap: wrap; */
 }
